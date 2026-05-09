@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import api from "../api";
-import { FiEye, FiEyeOff, FiLoader, FiAlertCircle, FiLock, FiClock } from "react-icons/fi";
+import { FiEye, FiEyeOff, FiLoader, FiAlertCircle, FiLock, FiClock, FiSmartphone, FiDownload } from "react-icons/fi";
 import { useAuth } from "../context/AuthContext";
 import toast from "react-hot-toast";
+import { isStandaloneMode } from "../utils/pwa";
 
 const LoginPage = () => {
 	const [email, setEmail] = useState("");
@@ -17,6 +18,20 @@ const LoginPage = () => {
 	const { login } = useAuth();
 	const [lockoutUntil, setLockoutUntil] = useState(null);
 	const [lockoutRemaining, setLockoutRemaining] = useState(0);
+	const [isPwa, setIsPwa] = useState(isStandaloneMode);
+
+	useEffect(() => {
+		const mediaQuery = window.matchMedia?.("(display-mode: standalone)");
+		const updatePwaState = () => setIsPwa(isStandaloneMode());
+
+		mediaQuery?.addEventListener?.("change", updatePwaState);
+		window.addEventListener("appinstalled", updatePwaState);
+
+		return () => {
+			mediaQuery?.removeEventListener?.("change", updatePwaState);
+			window.removeEventListener("appinstalled", updatePwaState);
+		};
+	}, []);
 
 	// Countdown timer for lockout
 	useEffect(() => {
@@ -40,6 +55,30 @@ const LoginPage = () => {
 	const isLockedOut = lockoutUntil && lockoutRemaining > 0;
 	const lockoutMinutes = Math.floor(lockoutRemaining / 60000);
 	const lockoutSeconds = Math.floor((lockoutRemaining % 60000) / 1000);
+
+	if (!isPwa) {
+		return (
+			<div className="flex min-h-screen items-center justify-center bg-[#07130f] p-5 text-white">
+				<div className="w-full max-w-md rounded-xl border border-white/10 bg-white/[0.07] p-6 text-center shadow-2xl shadow-black/30 backdrop-blur">
+					<div className="mx-auto flex h-16 w-16 items-center justify-center rounded-lg bg-yellow-300 text-slate-950">
+						<FiSmartphone className="h-8 w-8" />
+					</div>
+					<h1 className="mt-5 text-2xl font-black text-white">Login hanya tersedia di aplikasi</h1>
+					<p className="mt-3 text-sm font-medium leading-6 text-white/65">
+						Install Disnaker Presensi lalu buka dari ikon aplikasi di perangkat untuk masuk.
+					</p>
+					<button
+						type="button"
+						onClick={() => navigate("/", { replace: true })}
+						className="mt-6 inline-flex min-h-12 w-full items-center justify-center gap-2 rounded-lg bg-yellow-300 px-5 py-3 text-sm font-black uppercase text-slate-950 transition hover:bg-yellow-200"
+					>
+						<FiDownload className="h-5 w-5" />
+						Install Aplikasi
+					</button>
+				</div>
+			</div>
+		);
+	}
 
 	const handleLogin = async (e) => {
 		e.preventDefault();
