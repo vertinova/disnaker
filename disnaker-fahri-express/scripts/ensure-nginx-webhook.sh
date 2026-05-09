@@ -45,15 +45,15 @@ EOF
 
   awk -v block="$block" '
     BEGIN { in_block = 0; depth = 0; replaced = 0 }
-    !replaced && $0 ~ /^[[:space:]]*location[[:space:]]+\/webhook[[:space:]]*\{/ {
+    !in_block && $0 ~ /^[[:space:]]*location[[:space:]]+\/webhook[[:space:]]*\{/ {
       printf "%s", block
       in_block = 1
+      replaced += 1
       opens = gsub(/\{/, "{")
       closes = gsub(/\}/, "}")
       depth = opens - closes
       if (depth <= 0) {
         in_block = 0
-        replaced = 1
       }
       next
     }
@@ -63,13 +63,12 @@ EOF
       depth += opens - closes
       if (depth <= 0) {
         in_block = 0
-        replaced = 1
       }
       next
     }
     { print }
     END {
-      if (!replaced) {
+      if (replaced == 0) {
         exit 2
       }
     }
