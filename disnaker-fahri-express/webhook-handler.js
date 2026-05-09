@@ -23,6 +23,7 @@ const DEPLOY_BRANCH = process.env.WEBHOOK_BRANCH || 'main';
 const DEPLOY_ROOT = process.env.DEPLOY_ROOT || '/var/www/disnaker';
 const BACKEND_PATH = process.env.BACKEND_PATH || path.join(DEPLOY_ROOT, 'disnaker-fahri-express');
 const FRONTEND_PATH = process.env.FRONTEND_PATH || path.join(DEPLOY_ROOT, 'disnaker-frontend');
+const FRONTEND_PUBLIC_PATH = process.env.FRONTEND_PUBLIC_PATH || path.join(DEPLOY_ROOT, 'frontend');
 const LOG_FILE = process.env.WEBHOOK_LOG_FILE || '/var/www/webhook/webhook.log';
 const MAX_LOG_LINES = Number(process.env.WEBHOOK_MAX_LOG_LINES || 120);
 const CMD_TIMEOUT = Number(process.env.WEBHOOK_CMD_TIMEOUT || 600_000);
@@ -65,9 +66,14 @@ const steps = [
   { name: 'Install frontend dependencies', cwd: FRONTEND_PATH, cmd: `${NPM} install --include=dev` },
   { name: 'Build frontend', cwd: FRONTEND_PATH, cmd: `${NPM} run build` },
   {
-    name: 'Install Nginx site',
+    name: 'Publish frontend build',
+    cwd: FRONTEND_PATH,
+    cmd: `/bin/bash -lc 'mkdir -p "${FRONTEND_PUBLIC_PATH}" && cp -a dist/. "${FRONTEND_PUBLIC_PATH}/"'`,
+  },
+  {
+    name: 'Ensure Nginx webhook route',
     cwd: BACKEND_PATH,
-    cmd: `/bin/bash -lc 'cp -f nginx-disnaker.conf /etc/nginx/sites-available/${NGINX_SITE} && ln -sfn /etc/nginx/sites-available/${NGINX_SITE} /etc/nginx/sites-enabled/${NGINX_SITE}'`,
+    cmd: '/bin/bash scripts/ensure-nginx-webhook.sh',
   },
   { name: 'Reload Nginx', cwd: BACKEND_PATH, cmd: `${NGINX} -t && ${NGINX} -s reload` },
   {
