@@ -61,7 +61,7 @@ const steps = [
   {
     name: 'Run database auto migration',
     cwd: BACKEND_PATH,
-    cmd: `/bin/bash -lc 'if [ -f database-express/auto-migrate.js ]; then ${NODE} database-express/auto-migrate.js; else echo "auto-migrate.js not found, skipped"; fi'`,
+    cmd: `/bin/bash -lc 'if [ -f database-express/auto-migrate.js ]; then ${NODE} database-express/auto-migrate.js || echo "auto-migrate failed, continuing deploy"; else echo "auto-migrate.js not found, skipped"; fi'`,
   },
   { name: 'Install frontend dependencies', cwd: FRONTEND_PATH, cmd: `${NPM} install --include=dev` },
   { name: 'Build frontend', cwd: FRONTEND_PATH, cmd: `${NPM} run build` },
