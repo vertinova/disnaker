@@ -1,0 +1,1276 @@
+[
+  {
+    "id_pegawai": "1",
+    "id_bidang": "2",
+    "nama_pegawai": "Drs. HADIJANA S.Sos. M.Si",
+    "created_at": null,
+    "updated_at": null,
+    "bidangs": {
+      "id": "2",
+      "nama": "Sekretariat",
+      "created_at": "2025-10-02T06:44:16.000Z",
+      "updated_at": "2025-10-02T06:44:16.000Z"
+    }
+  },
+  {
+    "id_pegawai": "2",
+    "id_bidang": "2",
+    "nama_pegawai": "ENDANG HARI MULYADINATA S.Kom",
+    "created_at": null,
+    "updated_at": null,
+    "bidangs": {
+      "id": "2",
+      "nama": "Sekretariat",
+      "created_at": "2025-10-02T06:44:16.000Z",
+      "updated_at": "2025-10-02T06:44:16.000Z"
+    }
+  },
+  {
+    "id_pegawai": "3",
+    "id_bidang": "2",
+    "nama_pegawai": "LISNA SUSANTI S. E.",
+    "created_at": null,
+    "updated_at": null,
+    "bidangs": {
+      "id": "2",
+      "nama": "Sekretariat",
+      "created_at": "2025-10-02T06:44:16.000Z",
+      "updated_at": "2025-10-02T06:44:16.000Z"
+    }
+  },
+  {
+    "id_pegawai": "4",
+    "id_bidang": "2",
+    "nama_pegawai": "LEA HARUNDARI GESIT PERDANA PUTRI S.Sos",
+    "created_at": null,
+    "updated_at": null,
+    "bidangs": {
+      "id": "2",
+      "nama": "Sekretariat",
+      "created_at": "2025-10-02T06:44:16.000Z",
+      "updated_at": "2025-10-02T06:44:16.000Z"
+    }
+  },
+  {
+    "id_pegawai": "5",
+    "id_bidang": "2",
+    "nama_pegawai": "IRFAN",
+    "created_at": null,
+    "updated_at": null,
+    "bidangs": {
+      "id": "2",
+      "nama": "Sekretariat",
+      "created_at": "2025-10-02T06:44:16.000Z",
+      "updated_at": "2025-10-02T06:44:16.000Z"
+    }
+  },
+  {
+    "id_pegawai": "6",
+    "id_bidang": "2",
+    "nama_pegawai": "MEIKE HERAWATI S. E.",
+    "created_at": null,
+    "updated_at": null,
+    "bidangs": {
+      "id": "2",
+      "nama": "Sekretariat",
+      "created_at": "2025-10-02T06:44:16.000Z",
+      "updated_at": "2025-10-02T06:44:16.000Z"
+    }
+  },
+  {
+    "id_pegawai": "7",
+    "id_bidang": "2",
+    "nama_pegawai": "TRI WIDIYARTO S. IP, M. PA",
+    "created_at": null,
+    "updated_at": null,
+    "bidangs": {
+      "id": "2",
+      "nama": "Sekretariat",
+      "created_at": "2025-10-02T06:44:16.000Z",
+      "updated_at": "2025-10-02T06:44:16.000Z"
+    }
+  },
+  {
+    "id_pegawai": "8",
+    "id_bidang": "2",
+    "nama_pegawai": "ARIS SE",
+    "created_at": null,
+    "updated_at": null,
+    "bidangs": {
+      "id": "2",
+      "nama": "Sekretariat",
+      "created_at": "2025-10-02T06:44:16.000Z",
+      "updated_at": "2025-10-02T06:44:16.000Z"
+    }
+  },
+  {
+    "id_pegawai": "9",
+    "id_bidang": "2",
+    "nama_pegawai": "SOLEHUDIN ALAYUBI",
+    "created_at": null,
+    "updated_at": null,
+    "bidangs": {
+      "id": "2",
+      "nama": "Sekretariat",
+      "created_at": "2025-10-02T06:44:16.000Z",
+      "updated_at": "2025-10-02T06:44:16.000Z"
+    }
+  },
+  {
+    "id_pegawai": "10",
+    "id_bidang": "2",
+    "nama_pegawai": "LUSIANA DEWI S.Sos",
+    "created_at": null,
+    "updated_at": null,
+    "bidangs": {
+      "id": "2",
+      "nama": "Sekretariat",
+      "created_at": "2025-10-02T06:44:16.000Z",
+      "updated_at": "2025-10-02T06:44:16.000Z"
+    }
+  },
+  {
+    "id_pegawai": "11",
+    "id_bidang": "2",
+    "nama_pegawai": "MURYATI",
+    "created_at": null,
+    "updated_at": null,
+    "bidangs": {
+      "id": "2",
+      "nama": "Sekretariat",
+      "created_at": "2025-10-02T06:44:16.000Z",
+      "updated_at": "2025-10-02T06:44:16.000Z"
+    }
+  },
+  {
+    "id_pegawai": "12",
+    "id_bidang": "2",
+    "nama_pegawai": "FIRMAN",
+    "created_at": null,
+    "updated_at": null,
+    "bidangs": {
+      "id": "2",
+      "nama": "Sekretariat",
+      "created_at": "2025-10-02T06:44:16.000Z",
+      "updated_at": "2025-10-02T06:44:16.000Z"
+    }
+  },
+  {
+    "id_pegawai": "13",
+    "id_bidang": "2",
+    "nama_pegawai": "VIVI ERNAWATI A. Md",
+    "created_at": null,
+    "updated_at": null,
+    "bidangs": {
+      "id": "2",
+      "nama": "Sekretariat",
+      "created_at": "2025-10-02T06:44:16.000Z",
+      "updated_at": "2025-10-02T06:44:16.000Z"
+    }
+  },
+  {
+    "id_pegawai": "14",
+    "id_bidang": "2",
+    "nama_pegawai": "JUANGSIH ARYANI S.IP, M. IP",
+    "created_at": null,
+    "updated_at": null,
+    "bidangs": {
+      "id": "2",
+      "nama": "Sekretariat",
+      "created_at": "2025-10-02T06:44:16.000Z",
+      "updated_at": "2025-10-02T06:44:16.000Z"
+    }
+  },
+  {
+    "id_pegawai": "15",
+    "id_bidang": "2",
+    "nama_pegawai": "FERDI SERDIANA S.E. M. Si",
+    "created_at": null,
+    "updated_at": null,
+    "bidangs": {
+      "id": "2",
+      "nama": "Sekretariat",
+      "created_at": "2025-10-02T06:44:16.000Z",
+      "updated_at": "2025-10-02T06:44:16.000Z"
+    }
+  },
+  {
+    "id_pegawai": "16",
+    "id_bidang": "2",
+    "nama_pegawai": "TRI SUSANTI S. Ak.",
+    "created_at": null,
+    "updated_at": null,
+    "bidangs": {
+      "id": "2",
+      "nama": "Sekretariat",
+      "created_at": "2025-10-02T06:44:16.000Z",
+      "updated_at": "2025-10-02T06:44:16.000Z"
+    }
+  },
+  {
+    "id_pegawai": "17",
+    "id_bidang": "2",
+    "nama_pegawai": "RIKA FRANSISKA B.M. S.E.",
+    "created_at": null,
+    "updated_at": null,
+    "bidangs": {
+      "id": "2",
+      "nama": "Sekretariat",
+      "created_at": "2025-10-02T06:44:16.000Z",
+      "updated_at": "2025-10-02T06:44:16.000Z"
+    }
+  },
+  {
+    "id_pegawai": "18",
+    "id_bidang": "5",
+    "nama_pegawai": "RANI SITI NUR AINI S.IP M.Si",
+    "created_at": null,
+    "updated_at": null,
+    "bidangs": {
+      "id": "5",
+      "nama": "Pemberdayaan Masyarakat Desa",
+      "created_at": "2025-10-02T06:44:16.000Z",
+      "updated_at": "2025-10-02T06:44:16.000Z"
+    }
+  },
+  {
+    "id_pegawai": "19",
+    "id_bidang": "5",
+    "nama_pegawai": "SITI NURJANA ADAM S.Sos",
+    "created_at": null,
+    "updated_at": null,
+    "bidangs": {
+      "id": "5",
+      "nama": "Pemberdayaan Masyarakat Desa",
+      "created_at": "2025-10-02T06:44:16.000Z",
+      "updated_at": "2025-10-02T06:44:16.000Z"
+    }
+  },
+  {
+    "id_pegawai": "20",
+    "id_bidang": "5",
+    "nama_pegawai": "CAHYO BUDHIARTO S. AP",
+    "created_at": null,
+    "updated_at": null,
+    "bidangs": {
+      "id": "5",
+      "nama": "Pemberdayaan Masyarakat Desa",
+      "created_at": "2025-10-02T06:44:16.000Z",
+      "updated_at": "2025-10-02T06:44:16.000Z"
+    }
+  },
+  {
+    "id_pegawai": "21",
+    "id_bidang": "5",
+    "nama_pegawai": "FENI APRIANI S. Sos",
+    "created_at": null,
+    "updated_at": null,
+    "bidangs": {
+      "id": "5",
+      "nama": "Pemberdayaan Masyarakat Desa",
+      "created_at": "2025-10-02T06:44:16.000Z",
+      "updated_at": "2025-10-02T06:44:16.000Z"
+    }
+  },
+  {
+    "id_pegawai": "22",
+    "id_bidang": "5",
+    "nama_pegawai": "NABILA FITRIANA PRATIWI",
+    "created_at": null,
+    "updated_at": null,
+    "bidangs": {
+      "id": "5",
+      "nama": "Pemberdayaan Masyarakat Desa",
+      "created_at": "2025-10-02T06:44:16.000Z",
+      "updated_at": "2025-10-02T06:44:16.000Z"
+    }
+  },
+  {
+    "id_pegawai": "23",
+    "id_bidang": "5",
+    "nama_pegawai": "NURDIN S. AP",
+    "created_at": null,
+    "updated_at": null,
+    "bidangs": {
+      "id": "5",
+      "nama": "Pemberdayaan Masyarakat Desa",
+      "created_at": "2025-10-02T06:44:16.000Z",
+      "updated_at": "2025-10-02T06:44:16.000Z"
+    }
+  },
+  {
+    "id_pegawai": "24",
+    "id_bidang": "5",
+    "nama_pegawai": "DADANG TEGUH NURYULISTIWA S.H",
+    "created_at": null,
+    "updated_at": null,
+    "bidangs": {
+      "id": "5",
+      "nama": "Pemberdayaan Masyarakat Desa",
+      "created_at": "2025-10-02T06:44:16.000Z",
+      "updated_at": "2025-10-02T06:44:16.000Z"
+    }
+  },
+  {
+    "id_pegawai": "25",
+    "id_bidang": "5",
+    "nama_pegawai": "MAINY SE. MM",
+    "created_at": null,
+    "updated_at": null,
+    "bidangs": {
+      "id": "5",
+      "nama": "Pemberdayaan Masyarakat Desa",
+      "created_at": "2025-10-02T06:44:16.000Z",
+      "updated_at": "2025-10-02T06:44:16.000Z"
+    }
+  },
+  {
+    "id_pegawai": "26",
+    "id_bidang": "5",
+    "nama_pegawai": "SITI MARIYAM S. AP.",
+    "created_at": null,
+    "updated_at": null,
+    "bidangs": {
+      "id": "5",
+      "nama": "Pemberdayaan Masyarakat Desa",
+      "created_at": "2025-10-02T06:44:16.000Z",
+      "updated_at": "2025-10-02T06:44:16.000Z"
+    }
+  },
+  {
+    "id_pegawai": "27",
+    "id_bidang": "5",
+    "nama_pegawai": "AISYAH ARGIANTI S.Sos",
+    "created_at": null,
+    "updated_at": null,
+    "bidangs": {
+      "id": "5",
+      "nama": "Pemberdayaan Masyarakat Desa",
+      "created_at": "2025-10-02T06:44:16.000Z",
+      "updated_at": "2025-10-02T06:44:16.000Z"
+    }
+  },
+  {
+    "id_pegawai": "28",
+    "id_bidang": "5",
+    "nama_pegawai": "RAHMAT IGO WIBISONO S.Tr. I.P.",
+    "created_at": null,
+    "updated_at": null,
+    "bidangs": {
+      "id": "5",
+      "nama": "Pemberdayaan Masyarakat Desa",
+      "created_at": "2025-10-02T06:44:16.000Z",
+      "updated_at": "2025-10-02T06:44:16.000Z"
+    }
+  },
+  {
+    "id_pegawai": "29",
+    "id_bidang": "4",
+    "nama_pegawai": "ALI NASRULLAH S.H.",
+    "created_at": null,
+    "updated_at": null,
+    "bidangs": {
+      "id": "4",
+      "nama": "Kekayaan dan Keuangan Desa",
+      "created_at": "2025-10-02T06:44:16.000Z",
+      "updated_at": "2025-10-02T06:44:16.000Z"
+    }
+  },
+  {
+    "id_pegawai": "30",
+    "id_bidang": "4",
+    "nama_pegawai": "SELO ENDARTI",
+    "created_at": null,
+    "updated_at": null,
+    "bidangs": {
+      "id": "4",
+      "nama": "Kekayaan dan Keuangan Desa",
+      "created_at": "2025-10-02T06:44:16.000Z",
+      "updated_at": "2025-10-02T06:44:16.000Z"
+    }
+  },
+  {
+    "id_pegawai": "31",
+    "id_bidang": "4",
+    "nama_pegawai": "LINA PARLINA A. Md",
+    "created_at": null,
+    "updated_at": null,
+    "bidangs": {
+      "id": "4",
+      "nama": "Kekayaan dan Keuangan Desa",
+      "created_at": "2025-10-02T06:44:16.000Z",
+      "updated_at": "2025-10-02T06:44:16.000Z"
+    }
+  },
+  {
+    "id_pegawai": "32",
+    "id_bidang": "4",
+    "nama_pegawai": "FHADLI RUKMANA S. AK",
+    "created_at": null,
+    "updated_at": null,
+    "bidangs": {
+      "id": "4",
+      "nama": "Kekayaan dan Keuangan Desa",
+      "created_at": "2025-10-02T06:44:16.000Z",
+      "updated_at": "2025-10-02T06:44:16.000Z"
+    }
+  },
+  {
+    "id_pegawai": "33",
+    "id_bidang": "4",
+    "nama_pegawai": "MOCH IHSAN MAULANA SA'BAN, S.E.",
+    "created_at": null,
+    "updated_at": null,
+    "bidangs": {
+      "id": "4",
+      "nama": "Kekayaan dan Keuangan Desa",
+      "created_at": "2025-10-02T06:44:16.000Z",
+      "updated_at": "2025-10-02T06:44:16.000Z"
+    }
+  },
+  {
+    "id_pegawai": "34",
+    "id_bidang": "4",
+    "nama_pegawai": "ASTI NURPADILAH S.E.",
+    "created_at": null,
+    "updated_at": null,
+    "bidangs": {
+      "id": "4",
+      "nama": "Kekayaan dan Keuangan Desa",
+      "created_at": "2025-10-02T06:44:16.000Z",
+      "updated_at": "2025-10-02T06:44:16.000Z"
+    }
+  },
+  {
+    "id_pegawai": "35",
+    "id_bidang": "4",
+    "nama_pegawai": "DIMAS EKO NUGROHO S.I.Kom",
+    "created_at": null,
+    "updated_at": null,
+    "bidangs": {
+      "id": "4",
+      "nama": "Kekayaan dan Keuangan Desa",
+      "created_at": "2025-10-02T06:44:16.000Z",
+      "updated_at": "2025-10-02T06:44:16.000Z"
+    }
+  },
+  {
+    "id_pegawai": "36",
+    "id_bidang": "4",
+    "nama_pegawai": "MOCH. MAHPUDIN S.H. M.Si",
+    "created_at": null,
+    "updated_at": null,
+    "bidangs": {
+      "id": "4",
+      "nama": "Kekayaan dan Keuangan Desa",
+      "created_at": "2025-10-02T06:44:16.000Z",
+      "updated_at": "2025-10-02T06:44:16.000Z"
+    }
+  },
+  {
+    "id_pegawai": "37",
+    "id_bidang": "4",
+    "nama_pegawai": "SUHADA S.E.",
+    "created_at": null,
+    "updated_at": null,
+    "bidangs": {
+      "id": "4",
+      "nama": "Kekayaan dan Keuangan Desa",
+      "created_at": "2025-10-02T06:44:16.000Z",
+      "updated_at": "2025-10-02T06:44:16.000Z"
+    }
+  },
+  {
+    "id_pegawai": "38",
+    "id_bidang": "4",
+    "nama_pegawai": "CARISSA AZARINE S.Psi",
+    "created_at": null,
+    "updated_at": null,
+    "bidangs": {
+      "id": "4",
+      "nama": "Kekayaan dan Keuangan Desa",
+      "created_at": "2025-10-02T06:44:16.000Z",
+      "updated_at": "2025-10-02T06:44:16.000Z"
+    }
+  },
+  {
+    "id_pegawai": "39",
+    "id_bidang": "6",
+    "nama_pegawai": "FEBRIYANTI S.STP. M.Si",
+    "created_at": null,
+    "updated_at": null,
+    "bidangs": {
+      "id": "6",
+      "nama": "Pemerintahan Desa",
+      "created_at": "2025-10-02T06:44:16.000Z",
+      "updated_at": "2025-10-02T06:44:16.000Z"
+    }
+  },
+  {
+    "id_pegawai": "40",
+    "id_bidang": "6",
+    "nama_pegawai": "H. ACHMAD HADIYATUL M S.Sos. MM",
+    "created_at": null,
+    "updated_at": null,
+    "bidangs": {
+      "id": "6",
+      "nama": "Pemerintahan Desa",
+      "created_at": "2025-10-02T06:44:16.000Z",
+      "updated_at": "2025-10-02T06:44:16.000Z"
+    }
+  },
+  {
+    "id_pegawai": "41",
+    "id_bidang": "6",
+    "nama_pegawai": "R. LUKMAN S.E. M.A",
+    "created_at": null,
+    "updated_at": null,
+    "bidangs": {
+      "id": "6",
+      "nama": "Pemerintahan Desa",
+      "created_at": "2025-10-02T06:44:16.000Z",
+      "updated_at": "2025-10-02T06:44:16.000Z"
+    }
+  },
+  {
+    "id_pegawai": "42",
+    "id_bidang": "6",
+    "nama_pegawai": "FATUR ARI SETYANTO S. STP",
+    "created_at": null,
+    "updated_at": null,
+    "bidangs": {
+      "id": "6",
+      "nama": "Pemerintahan Desa",
+      "created_at": "2025-10-02T06:44:16.000Z",
+      "updated_at": "2025-10-02T06:44:16.000Z"
+    }
+  },
+  {
+    "id_pegawai": "43",
+    "id_bidang": "6",
+    "nama_pegawai": "WAWAN SETIAWAN",
+    "created_at": null,
+    "updated_at": null,
+    "bidangs": {
+      "id": "6",
+      "nama": "Pemerintahan Desa",
+      "created_at": "2025-10-02T06:44:16.000Z",
+      "updated_at": "2025-10-02T06:44:16.000Z"
+    }
+  },
+  {
+    "id_pegawai": "44",
+    "id_bidang": "6",
+    "nama_pegawai": "UJANG MUHAROM",
+    "created_at": null,
+    "updated_at": null,
+    "bidangs": {
+      "id": "6",
+      "nama": "Pemerintahan Desa",
+      "created_at": "2025-10-02T06:44:16.000Z",
+      "updated_at": "2025-10-02T06:44:16.000Z"
+    }
+  },
+  {
+    "id_pegawai": "45",
+    "id_bidang": "6",
+    "nama_pegawai": "DESY ARTA ROSARI SITANGGANG S.Tr.Sos",
+    "created_at": null,
+    "updated_at": null,
+    "bidangs": {
+      "id": "6",
+      "nama": "Pemerintahan Desa",
+      "created_at": "2025-10-02T06:44:16.000Z",
+      "updated_at": "2025-10-02T06:44:16.000Z"
+    }
+  },
+  {
+    "id_pegawai": "46",
+    "id_bidang": "6",
+    "nama_pegawai": "MIMAH MAHDIAH S.E. M.M",
+    "created_at": null,
+    "updated_at": null,
+    "bidangs": {
+      "id": "6",
+      "nama": "Pemerintahan Desa",
+      "created_at": "2025-10-02T06:44:16.000Z",
+      "updated_at": "2025-10-02T06:44:16.000Z"
+    }
+  },
+  {
+    "id_pegawai": "47",
+    "id_bidang": "6",
+    "nama_pegawai": "SITI SARAH FATMAWATI S. STP. M.IP",
+    "created_at": null,
+    "updated_at": null,
+    "bidangs": {
+      "id": "6",
+      "nama": "Pemerintahan Desa",
+      "created_at": "2025-10-02T06:44:16.000Z",
+      "updated_at": "2025-10-02T06:44:16.000Z"
+    }
+  },
+  {
+    "id_pegawai": "48",
+    "id_bidang": "6",
+    "nama_pegawai": "AYU WANDIRA S.E.",
+    "created_at": null,
+    "updated_at": null,
+    "bidangs": {
+      "id": "6",
+      "nama": "Pemerintahan Desa",
+      "created_at": "2025-10-02T06:44:16.000Z",
+      "updated_at": "2025-10-02T06:44:16.000Z"
+    }
+  },
+  {
+    "id_pegawai": "49",
+    "id_bidang": "6",
+    "nama_pegawai": "DHAMARA NURDIANSYAH",
+    "created_at": null,
+    "updated_at": null,
+    "bidangs": {
+      "id": "6",
+      "nama": "Pemerintahan Desa",
+      "created_at": "2025-10-02T06:44:16.000Z",
+      "updated_at": "2025-10-02T06:44:16.000Z"
+    }
+  },
+  {
+    "id_pegawai": "50",
+    "id_bidang": "3",
+    "nama_pegawai": "MIRA DEWI SITANGGANG S.E. M.M.",
+    "created_at": null,
+    "updated_at": null,
+    "bidangs": {
+      "id": "3",
+      "nama": "Sarana Prasarana Kewilayahan dan Ekonomi Desa",
+      "created_at": "2025-10-02T06:44:16.000Z",
+      "updated_at": "2025-10-02T06:44:16.000Z"
+    }
+  },
+  {
+    "id_pegawai": "51",
+    "id_bidang": "3",
+    "nama_pegawai": "HARIF WAHYUDI S.Kom",
+    "created_at": null,
+    "updated_at": null,
+    "bidangs": {
+      "id": "3",
+      "nama": "Sarana Prasarana Kewilayahan dan Ekonomi Desa",
+      "created_at": "2025-10-02T06:44:16.000Z",
+      "updated_at": "2025-10-02T06:44:16.000Z"
+    }
+  },
+  {
+    "id_pegawai": "52",
+    "id_bidang": "3",
+    "nama_pegawai": "IRMAWATI SARI S.E.",
+    "created_at": null,
+    "updated_at": null,
+    "bidangs": {
+      "id": "3",
+      "nama": "Sarana Prasarana Kewilayahan dan Ekonomi Desa",
+      "created_at": "2025-10-02T06:44:16.000Z",
+      "updated_at": "2025-10-02T06:44:16.000Z"
+    }
+  },
+  {
+    "id_pegawai": "53",
+    "id_bidang": "3",
+    "nama_pegawai": "YADI SUPRIADI",
+    "created_at": null,
+    "updated_at": null,
+    "bidangs": {
+      "id": "3",
+      "nama": "Sarana Prasarana Kewilayahan dan Ekonomi Desa",
+      "created_at": "2025-10-02T06:44:16.000Z",
+      "updated_at": "2025-10-02T06:44:16.000Z"
+    }
+  },
+  {
+    "id_pegawai": "54",
+    "id_bidang": "3",
+    "nama_pegawai": "AYULIA NUR RACHMAWATI S.Sos",
+    "created_at": null,
+    "updated_at": null,
+    "bidangs": {
+      "id": "3",
+      "nama": "Sarana Prasarana Kewilayahan dan Ekonomi Desa",
+      "created_at": "2025-10-02T06:44:16.000Z",
+      "updated_at": "2025-10-02T06:44:16.000Z"
+    }
+  },
+  {
+    "id_pegawai": "55",
+    "id_bidang": "3",
+    "nama_pegawai": "DARUL TAUFIQ",
+    "created_at": null,
+    "updated_at": null,
+    "bidangs": {
+      "id": "3",
+      "nama": "Sarana Prasarana Kewilayahan dan Ekonomi Desa",
+      "created_at": "2025-10-02T06:44:16.000Z",
+      "updated_at": "2025-10-02T06:44:16.000Z"
+    }
+  },
+  {
+    "id_pegawai": "56",
+    "id_bidang": "3",
+    "nama_pegawai": "ALAN RIADI S.E. M. Si",
+    "created_at": null,
+    "updated_at": null,
+    "bidangs": {
+      "id": "3",
+      "nama": "Sarana Prasarana Kewilayahan dan Ekonomi Desa",
+      "created_at": "2025-10-02T06:44:16.000Z",
+      "updated_at": "2025-10-02T06:44:16.000Z"
+    }
+  },
+  {
+    "id_pegawai": "57",
+    "id_bidang": "3",
+    "nama_pegawai": "SRI PURWANINGSIH S.E.",
+    "created_at": null,
+    "updated_at": null,
+    "bidangs": {
+      "id": "3",
+      "nama": "Sarana Prasarana Kewilayahan dan Ekonomi Desa",
+      "created_at": "2025-10-02T06:44:16.000Z",
+      "updated_at": "2025-10-02T06:44:16.000Z"
+    }
+  },
+  {
+    "id_pegawai": "58",
+    "id_bidang": "3",
+    "nama_pegawai": "SITI RAHMAH S.E.",
+    "created_at": null,
+    "updated_at": null,
+    "bidangs": {
+      "id": "3",
+      "nama": "Sarana Prasarana Kewilayahan dan Ekonomi Desa",
+      "created_at": "2025-10-02T06:44:16.000Z",
+      "updated_at": "2025-10-02T06:44:16.000Z"
+    }
+  },
+  {
+    "id_pegawai": "59",
+    "id_bidang": "8",
+    "nama_pegawai": "Wawan Darmawan",
+    "created_at": null,
+    "updated_at": null,
+    "bidangs": {
+      "id": "8",
+      "nama": "Tenaga Keamanan",
+      "created_at": "2025-10-02T06:44:16.000Z",
+      "updated_at": "2025-10-02T06:44:16.000Z"
+    }
+  },
+  {
+    "id_pegawai": "60",
+    "id_bidang": "8",
+    "nama_pegawai": "Suratman",
+    "created_at": null,
+    "updated_at": null,
+    "bidangs": {
+      "id": "8",
+      "nama": "Tenaga Keamanan",
+      "created_at": "2025-10-02T06:44:16.000Z",
+      "updated_at": "2025-10-02T06:44:16.000Z"
+    }
+  },
+  {
+    "id_pegawai": "61",
+    "id_bidang": "8",
+    "nama_pegawai": "Adi Hermawan",
+    "created_at": null,
+    "updated_at": null,
+    "bidangs": {
+      "id": "8",
+      "nama": "Tenaga Keamanan",
+      "created_at": "2025-10-02T06:44:16.000Z",
+      "updated_at": "2025-10-02T06:44:16.000Z"
+    }
+  },
+  {
+    "id_pegawai": "62",
+    "id_bidang": "8",
+    "nama_pegawai": "Otasi Carles Manalu",
+    "created_at": null,
+    "updated_at": null,
+    "bidangs": {
+      "id": "8",
+      "nama": "Tenaga Keamanan",
+      "created_at": "2025-10-02T06:44:16.000Z",
+      "updated_at": "2025-10-02T06:44:16.000Z"
+    }
+  },
+  {
+    "id_pegawai": "63",
+    "id_bidang": "8",
+    "nama_pegawai": "Ahmad Imam Maulana",
+    "created_at": null,
+    "updated_at": null,
+    "bidangs": {
+      "id": "8",
+      "nama": "Tenaga Keamanan",
+      "created_at": "2025-10-02T06:44:16.000Z",
+      "updated_at": "2025-10-02T06:44:16.000Z"
+    }
+  },
+  {
+    "id_pegawai": "64",
+    "id_bidang": "8",
+    "nama_pegawai": "Wahyu Ari Sucipto",
+    "created_at": null,
+    "updated_at": null,
+    "bidangs": {
+      "id": "8",
+      "nama": "Tenaga Keamanan",
+      "created_at": "2025-10-02T06:44:16.000Z",
+      "updated_at": "2025-10-02T06:44:16.000Z"
+    }
+  },
+  {
+    "id_pegawai": "65",
+    "id_bidang": "8",
+    "nama_pegawai": "Atika Seknun",
+    "created_at": null,
+    "updated_at": null,
+    "bidangs": {
+      "id": "8",
+      "nama": "Tenaga Keamanan",
+      "created_at": "2025-10-02T06:44:16.000Z",
+      "updated_at": "2025-10-02T06:44:16.000Z"
+    }
+  },
+  {
+    "id_pegawai": "66",
+    "id_bidang": "8",
+    "nama_pegawai": "Iyah Samsiyah",
+    "created_at": null,
+    "updated_at": null,
+    "bidangs": {
+      "id": "8",
+      "nama": "Tenaga Keamanan",
+      "created_at": "2025-10-02T06:44:16.000Z",
+      "updated_at": "2025-10-02T06:44:16.000Z"
+    }
+  },
+  {
+    "id_pegawai": "67",
+    "id_bidang": "9",
+    "nama_pegawai": "SUKARMIN",
+    "created_at": null,
+    "updated_at": null,
+    "bidangs": {
+      "id": "9",
+      "nama": "Tenaga Kebersihan",
+      "created_at": "2025-10-02T06:44:16.000Z",
+      "updated_at": "2025-10-02T06:44:16.000Z"
+    }
+  },
+  {
+    "id_pegawai": "68",
+    "id_bidang": "9",
+    "nama_pegawai": "Rini",
+    "created_at": null,
+    "updated_at": null,
+    "bidangs": {
+      "id": "9",
+      "nama": "Tenaga Kebersihan",
+      "created_at": "2025-10-02T06:44:16.000Z",
+      "updated_at": "2025-10-02T06:44:16.000Z"
+    }
+  },
+  {
+    "id_pegawai": "69",
+    "id_bidang": "9",
+    "nama_pegawai": "Erwin Yuniawan Kusuma",
+    "created_at": null,
+    "updated_at": null,
+    "bidangs": {
+      "id": "9",
+      "nama": "Tenaga Kebersihan",
+      "created_at": "2025-10-02T06:44:16.000Z",
+      "updated_at": "2025-10-02T06:44:16.000Z"
+    }
+  },
+  {
+    "id_pegawai": "70",
+    "id_bidang": "9",
+    "nama_pegawai": "Umar",
+    "created_at": null,
+    "updated_at": null,
+    "bidangs": {
+      "id": "9",
+      "nama": "Tenaga Kebersihan",
+      "created_at": "2025-10-02T06:44:16.000Z",
+      "updated_at": "2025-10-02T06:44:16.000Z"
+    }
+  },
+  {
+    "id_pegawai": "71",
+    "id_bidang": "9",
+    "nama_pegawai": "Haerudin",
+    "created_at": null,
+    "updated_at": null,
+    "bidangs": {
+      "id": "9",
+      "nama": "Tenaga Kebersihan",
+      "created_at": "2025-10-02T06:44:16.000Z",
+      "updated_at": "2025-10-02T06:44:16.000Z"
+    }
+  },
+  {
+    "id_pegawai": "72",
+    "id_bidang": "9",
+    "nama_pegawai": "Rizkia Safitri",
+    "created_at": null,
+    "updated_at": null,
+    "bidangs": {
+      "id": "9",
+      "nama": "Tenaga Kebersihan",
+      "created_at": "2025-10-02T06:44:16.000Z",
+      "updated_at": "2025-10-02T06:44:16.000Z"
+    }
+  },
+  {
+    "id_pegawai": "73",
+    "id_bidang": "9",
+    "nama_pegawai": "Syukur Makmun",
+    "created_at": null,
+    "updated_at": null,
+    "bidangs": {
+      "id": "9",
+      "nama": "Tenaga Kebersihan",
+      "created_at": "2025-10-02T06:44:16.000Z",
+      "updated_at": "2025-10-02T06:44:16.000Z"
+    }
+  },
+  {
+    "id_pegawai": "74",
+    "id_bidang": "9",
+    "nama_pegawai": "Beni Permana",
+    "created_at": null,
+    "updated_at": null,
+    "bidangs": {
+      "id": "9",
+      "nama": "Tenaga Kebersihan",
+      "created_at": "2025-10-02T06:44:16.000Z",
+      "updated_at": "2025-10-02T06:44:16.000Z"
+    }
+  },
+  {
+    "id_pegawai": "75",
+    "id_bidang": "9",
+    "nama_pegawai": "Basri Ramadan",
+    "created_at": null,
+    "updated_at": null,
+    "bidangs": {
+      "id": "9",
+      "nama": "Tenaga Kebersihan",
+      "created_at": "2025-10-02T06:44:16.000Z",
+      "updated_at": "2025-10-02T06:44:16.000Z"
+    }
+  },
+  {
+    "id_pegawai": "76",
+    "id_bidang": "7",
+    "nama_pegawai": "Dian Munandar",
+    "created_at": null,
+    "updated_at": null,
+    "bidangs": {
+      "id": "7",
+      "nama": "Tenaga Alih Daya",
+      "created_at": "2025-10-02T06:44:16.000Z",
+      "updated_at": "2025-10-02T06:44:16.000Z"
+    }
+  },
+  {
+    "id_pegawai": "77",
+    "id_bidang": "7",
+    "nama_pegawai": "Rachmat Ramadhan, S. Ak",
+    "created_at": null,
+    "updated_at": null,
+    "bidangs": {
+      "id": "7",
+      "nama": "Tenaga Alih Daya",
+      "created_at": "2025-10-02T06:44:16.000Z",
+      "updated_at": "2025-10-02T06:44:16.000Z"
+    }
+  },
+  {
+    "id_pegawai": "78",
+    "id_bidang": "7",
+    "nama_pegawai": "Arfa Cesaria, A. Md",
+    "created_at": null,
+    "updated_at": null,
+    "bidangs": {
+      "id": "7",
+      "nama": "Tenaga Alih Daya",
+      "created_at": "2025-10-02T06:44:16.000Z",
+      "updated_at": "2025-10-02T06:44:16.000Z"
+    }
+  },
+  {
+    "id_pegawai": "79",
+    "id_bidang": "7",
+    "nama_pegawai": "Nina Melinda, S.Pd",
+    "created_at": null,
+    "updated_at": null,
+    "bidangs": {
+      "id": "7",
+      "nama": "Tenaga Alih Daya",
+      "created_at": "2025-10-02T06:44:16.000Z",
+      "updated_at": "2025-10-02T06:44:16.000Z"
+    }
+  },
+  {
+    "id_pegawai": "80",
+    "id_bidang": "7",
+    "nama_pegawai": "Mas Cecep Tino Noviandi, A. Md",
+    "created_at": null,
+    "updated_at": null,
+    "bidangs": {
+      "id": "7",
+      "nama": "Tenaga Alih Daya",
+      "created_at": "2025-10-02T06:44:16.000Z",
+      "updated_at": "2025-10-02T06:44:16.000Z"
+    }
+  },
+  {
+    "id_pegawai": "81",
+    "id_bidang": "7",
+    "nama_pegawai": "Chintia Ainun Fadhilah, S.M.",
+    "created_at": null,
+    "updated_at": null,
+    "bidangs": {
+      "id": "7",
+      "nama": "Tenaga Alih Daya",
+      "created_at": "2025-10-02T06:44:16.000Z",
+      "updated_at": "2025-10-02T06:44:16.000Z"
+    }
+  },
+  {
+    "id_pegawai": "82",
+    "id_bidang": "7",
+    "nama_pegawai": "Rizki Iriani, A. Md",
+    "created_at": null,
+    "updated_at": null,
+    "bidangs": {
+      "id": "7",
+      "nama": "Tenaga Alih Daya",
+      "created_at": "2025-10-02T06:44:16.000Z",
+      "updated_at": "2025-10-02T06:44:16.000Z"
+    }
+  },
+  {
+    "id_pegawai": "83",
+    "id_bidang": "7",
+    "nama_pegawai": "Fariz Andifa, S.Kom",
+    "created_at": null,
+    "updated_at": null,
+    "bidangs": {
+      "id": "7",
+      "nama": "Tenaga Alih Daya",
+      "created_at": "2025-10-02T06:44:16.000Z",
+      "updated_at": "2025-10-02T06:44:16.000Z"
+    }
+  },
+  {
+    "id_pegawai": "84",
+    "id_bidang": "7",
+    "nama_pegawai": "Imam Septiyansyah, S. Kom",
+    "created_at": null,
+    "updated_at": null,
+    "bidangs": {
+      "id": "7",
+      "nama": "Tenaga Alih Daya",
+      "created_at": "2025-10-02T06:44:16.000Z",
+      "updated_at": "2025-10-02T06:44:16.000Z"
+    }
+  },
+  {
+    "id_pegawai": "85",
+    "id_bidang": "7",
+    "nama_pegawai": "Erma Diah Vitaloka, S.T.",
+    "created_at": null,
+    "updated_at": null,
+    "bidangs": {
+      "id": "7",
+      "nama": "Tenaga Alih Daya",
+      "created_at": "2025-10-02T06:44:16.000Z",
+      "updated_at": "2025-10-02T06:44:16.000Z"
+    }
+  },
+  {
+    "id_pegawai": "86",
+    "id_bidang": "7",
+    "nama_pegawai": "Zaenudin, S. Pd",
+    "created_at": null,
+    "updated_at": null,
+    "bidangs": {
+      "id": "7",
+      "nama": "Tenaga Alih Daya",
+      "created_at": "2025-10-02T06:44:16.000Z",
+      "updated_at": "2025-10-02T06:44:16.000Z"
+    }
+  },
+  {
+    "id_pegawai": "87",
+    "id_bidang": "7",
+    "nama_pegawai": "Neneng Muflihah, S.E",
+    "created_at": null,
+    "updated_at": null,
+    "bidangs": {
+      "id": "7",
+      "nama": "Tenaga Alih Daya",
+      "created_at": "2025-10-02T06:44:16.000Z",
+      "updated_at": "2025-10-02T06:44:16.000Z"
+    }
+  },
+  {
+    "id_pegawai": "88",
+    "id_bidang": "7",
+    "nama_pegawai": "Dian Noviani, S. IK",
+    "created_at": null,
+    "updated_at": null,
+    "bidangs": {
+      "id": "7",
+      "nama": "Tenaga Alih Daya",
+      "created_at": "2025-10-02T06:44:16.000Z",
+      "updated_at": "2025-10-02T06:44:16.000Z"
+    }
+  },
+  {
+    "id_pegawai": "89",
+    "id_bidang": "7",
+    "nama_pegawai": "Gema Alifa Eastiana , S.I.Kom",
+    "created_at": null,
+    "updated_at": null,
+    "bidangs": {
+      "id": "7",
+      "nama": "Tenaga Alih Daya",
+      "created_at": "2025-10-02T06:44:16.000Z",
+      "updated_at": "2025-10-02T06:44:16.000Z"
+    }
+  },
+  {
+    "id_pegawai": "90",
+    "id_bidang": "7",
+    "nama_pegawai": "Muhamad Rafli, S.E.",
+    "created_at": null,
+    "updated_at": null,
+    "bidangs": {
+      "id": "7",
+      "nama": "Tenaga Alih Daya",
+      "created_at": "2025-10-02T06:44:16.000Z",
+      "updated_at": "2025-10-02T06:44:16.000Z"
+    }
+  },
+  {
+    "id_pegawai": "91",
+    "id_bidang": "7",
+    "nama_pegawai": "Aulya Ardhi Fauqa, S.H.",
+    "created_at": null,
+    "updated_at": null,
+    "bidangs": {
+      "id": "7",
+      "nama": "Tenaga Alih Daya",
+      "created_at": "2025-10-02T06:44:16.000Z",
+      "updated_at": "2025-10-02T06:44:16.000Z"
+    }
+  },
+  {
+    "id_pegawai": "92",
+    "id_bidang": "7",
+    "nama_pegawai": "Sandra Febri Ramdhiani, S.H.",
+    "created_at": null,
+    "updated_at": null,
+    "bidangs": {
+      "id": "7",
+      "nama": "Tenaga Alih Daya",
+      "created_at": "2025-10-02T06:44:16.000Z",
+      "updated_at": "2025-10-02T06:44:16.000Z"
+    }
+  },
+  {
+    "id_pegawai": "93",
+    "id_bidang": "7",
+    "nama_pegawai": "Muhammad Fahmi, S. Kom",
+    "created_at": null,
+    "updated_at": null,
+    "bidangs": {
+      "id": "7",
+      "nama": "Tenaga Alih Daya",
+      "created_at": "2025-10-02T06:44:16.000Z",
+      "updated_at": "2025-10-02T06:44:16.000Z"
+    }
+  },
+  {
+    "id_pegawai": "94",
+    "id_bidang": "7",
+    "nama_pegawai": "Moch. Rizki Utama , S.P.W.K",
+    "created_at": null,
+    "updated_at": null,
+    "bidangs": {
+      "id": "7",
+      "nama": "Tenaga Alih Daya",
+      "created_at": "2025-10-02T06:44:16.000Z",
+      "updated_at": "2025-10-02T06:44:16.000Z"
+    }
+  },
+  {
+    "id_pegawai": "95",
+    "id_bidang": "7",
+    "nama_pegawai": "Denna S. Dahmar Hidayati, S. Ak",
+    "created_at": null,
+    "updated_at": null,
+    "bidangs": {
+      "id": "7",
+      "nama": "Tenaga Alih Daya",
+      "created_at": "2025-10-02T06:44:16.000Z",
+      "updated_at": "2025-10-02T06:44:16.000Z"
+    }
+  },
+  {
+    "id_pegawai": "96",
+    "id_bidang": "7",
+    "nama_pegawai": "Fahri Setya Gunawan",
+    "created_at": null,
+    "updated_at": null,
+    "bidangs": {
+      "id": "7",
+      "nama": "Tenaga Alih Daya",
+      "created_at": "2025-10-02T06:44:16.000Z",
+      "updated_at": "2025-10-02T06:44:16.000Z"
+    }
+  },
+  {
+    "id_pegawai": "97",
+    "id_bidang": "7",
+    "nama_pegawai": "Devin Prasetia Bastian, S.P.W.K",
+    "created_at": null,
+    "updated_at": null,
+    "bidangs": {
+      "id": "7",
+      "nama": "Tenaga Alih Daya",
+      "created_at": "2025-10-02T06:44:16.000Z",
+      "updated_at": "2025-10-02T06:44:16.000Z"
+    }
+  },
+  {
+    "id_pegawai": "98",
+    "id_bidang": "6",
+    "nama_pegawai": "Rudi Hermawan. SE., M.Si",
+    "created_at": null,
+    "updated_at": null,
+    "bidangs": {
+      "id": "6",
+      "nama": "Pemerintahan Desa",
+      "created_at": "2025-10-02T06:44:16.000Z",
+      "updated_at": "2025-10-02T06:44:16.000Z"
+    }
+  }
+]

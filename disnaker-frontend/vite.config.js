@@ -1,0 +1,120 @@
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react";
+import tailwindcss from "@tailwindcss/vite";
+import { VitePWA } from 'vite-plugin-pwa';
+import fs from 'fs';
+import path from 'path';
+
+// Read package.json to get version
+const packageJson = JSON.parse(fs.readFileSync('./package.json', 'utf-8'));
+const appVersion = packageJson.version;
+const buildDate = new Date().toISOString();
+
+// https://vite.dev/config/
+export default defineConfig({
+	define: {
+		'import.meta.env.VITE_APP_VERSION': JSON.stringify(appVersion),
+		'import.meta.env.VITE_BUILD_DATE': JSON.stringify(buildDate),
+	},
+	esbuild: {
+		drop: process.env.NODE_ENV === 'production' ? ['console', 'debugger'] : [],
+	},
+	plugins: [
+		react(), 
+		tailwindcss(),
+		VitePWA({
+			registerType: 'autoUpdate',
+			injectRegister: 'auto',
+			includeAssets: ['favicon.ico', 'robots.txt', 'logo-bogor.png', 'logo-96.png', 'logo-192.png', 'logo-512.png'],
+			workbox: {
+				globPatterns: ['**/*.{js,css,html,ico,png,svg,jpg,jpeg,woff,woff2,mp3}'],
+				// Exclude static file paths from navigateFallback to let nginx/backend handle them
+				navigateFallbackDenylist: [/^\/api\//, /^\/storage\//, /^\/uploads\//, /^\/public\//, /\/version\.json$/],
+				// Custom SW will be injected by inject-custom-sw.js script
+				runtimeCaching: [
+					{
+						urlPattern: /^https:\/\/dpmdbogorkab\.id\/api\/.*/i,
+						handler: 'NetworkFirst',
+						options: {
+							cacheName: 'api-cache',
+							expiration: {
+								maxEntries: 100,
+								maxAgeSeconds: 60 * 60 // 1 hour
+							},
+							cacheableResponse: {
+								statuses: [200]
+							}
+						}
+					},
+					{
+						urlPattern: /^https:\/\/dpmdbogorkab\.id\/(storage|uploads|public)\/.*/i,
+						handler: 'CacheFirst',
+						options: {
+							cacheName: 'media-cache',
+							expiration: {
+								maxEntries: 200,
+								maxAgeSeconds: 60 * 60 * 24 * 7 // 7 days
+							},
+							cacheableResponse: {
+								statuses: [200]
+							}
+						}
+					}
+				]
+			},
+			manifest: {
+				name: 'Disnaker Presensi',
+				short_name: 'Presensi',
+				description: 'Disnaker Presensi Kabupaten Bogor',
+				theme_color: '#ffffff',
+				background_color: '#ffffff',
+				display: 'standalone',
+				orientation: 'any',
+				scope: '/',
+				start_url: '/',
+				icons: [
+					{
+						src: '/logo-bogor.png?v=1',
+						sizes: 'any',
+						type: 'image/png',
+						purpose: 'any maskable'
+					},
+					{
+						src: '/logo-192.png?v=1',
+						sizes: '192x192',
+						type: 'image/png',
+						purpose: 'any'
+					},
+					{
+						src: '/logo-512.png?v=1',
+						sizes: '512x512',
+						type: 'image/png',
+						purpose: 'any'
+					},
+					{
+						src: '/logo-96.png?v=1',
+						sizes: '96x96',
+						type: 'image/png',
+						purpose: 'any'
+					}
+				]
+			},
+			devOptions: {
+				enabled: false // Disabled for production build
+			}
+		})
+	],
+	server: {
+		proxy: {
+			"/api": {
+				target: "http://localhost:3001",
+				changeOrigin: true,
+				secure: false,
+			},
+			"/storage": {
+				target: "http://localhost:3001",
+				changeOrigin: true,
+			},
+		},
+	},
+});

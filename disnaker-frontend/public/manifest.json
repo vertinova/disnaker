@@ -1,0 +1,81 @@
+{
+  "name": "Disnaker Presensi",
+  "short_name": "Presensi",
+  "description": "Disnaker Presensi Kabupaten Bogor",
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "orientation": "any",
+  "scope": "/",
+  "start_url": "/",
+  "categories": ["productivity", "government"],
+  "prefer_related_applications": false,
+  "icons": [
+    {
+      "src": "/logo-bogor.png?v=1",
+      "sizes": "any",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/logo-192.png?v=1",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/logo-512.png?v=1",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/logo-96.png?v=1",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/logo-192.png?v=1",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/logo-512.png?v=1",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Presensi Pegawai",
+      "short_name": "Presensi",
+      "description": "Buka halaman presensi pegawai",
+      "url": "/pegawai/absensi",
+      "icons": [{ 
+        "src": "/logo-96.png?v=1", 
+        "sizes": "96x96",
+        "type": "image/png",
+        "purpose": "any"
+      }]
+    },
+    {
+      "name": "Kelola Absensi",
+      "short_name": "Kelola",
+      "description": "Buka halaman manajemen absensi",
+      "url": "/sekretariat/absensi-management",
+      "icons": [{ 
+        "src": "/logo-96.png?v=1", 
+        "sizes": "96x96",
+        "type": "image/png",
+        "purpose": "any"
+      }]
+    }
+  ],
+  "permissions": [
+    "notifications"
+  ],
+  "gcm_sender_id": "103953800507"
+}

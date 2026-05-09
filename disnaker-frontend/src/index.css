@@ -1,0 +1,421 @@
+/* Impor font Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/* Impor layer dasar Tailwind */
+@import "tailwindcss";
+
+/* Atur style dasar untuk tema putih dan font Poppins */
+@layer base {
+	:root {
+		--color-primary: 17 38 66;
+		--color-secondary: 198 167 61;
+
+		--font-family-poppins: "Poppins", sans-serif;
+	}
+
+	body {
+		font-family: "Poppins", sans-serif;
+		background-color: #fff;
+		color: #1f2937; /* Tailwind's gray-800 */
+	}
+
+	/* Smooth scrolling + compact scaling for laptop/desktop */
+	html {
+		scroll-behavior: smooth;
+	}
+
+	/* Compact scaling: tampilan lebih compact di laptop/desktop */
+	/* Mengecilkan root font-size agar semua rem-based sizing (Tailwind) mengecil proporsional */
+	/* 13px / 16px = 0.8125 ≈ tampilan 80% tanpa merusak viewport (100vh tetap full) */
+	@media (min-width: 1024px) {
+		html {
+			font-size: 13px;
+		}
+	}
+
+	.bg-primary {
+		background-color: rgb(var(--color-primary)) !important;
+	}
+
+	.text-primary {
+		color: rgb(var(--color-primary));
+	}
+
+	/* Styling khusus untuk sidebar active state */
+	.sidebar-active {
+		background-color: rgb(17, 38, 66) !important;
+		color: white !important;
+	}
+	.text-secondary {
+		color: rgb(var(--color-secondary));
+	}
+}
+
+@layer components {
+	.input-group {
+		@apply bg-slate-100 border border-slate-200 p-2 rounded-md mt-2 shadow-sm;
+	}
+}
+
+/* ===== LANDING PAGE ANIMATIONS ===== */
+
+/* Hero background zoom */
+@keyframes hero-zoom {
+	from { transform: scale(1); }
+	to { transform: scale(1.08); }
+}
+
+/* Floating animation */
+@keyframes float {
+	0%, 100% { transform: translateY(0px); }
+	50% { transform: translateY(-20px); }
+}
+
+/* Gentle pulse glow */
+@keyframes glow-pulse {
+	0%, 100% { opacity: 0.4; }
+	50% { opacity: 0.8; }
+}
+
+/* Animation for error messages */
+@keyframes shake {
+	0%, 100% {
+		transform: translateX(0);
+	}
+	10%, 30%, 50%, 70%, 90% {
+		transform: translateX(-10px);
+	}
+	20%, 40%, 60%, 80% {
+		transform: translateX(10px);
+	}
+}
+
+/* Animations for pegawai dashboard */
+@keyframes fadeIn {
+	from { opacity: 0; }
+	to { opacity: 1; }
+}
+
+@keyframes slideUp {
+	from { transform: translateY(100%); }
+	to { transform: translateY(0); }
+}
+
+.animate-fadeIn {
+	animation: fadeIn 0.2s ease-out;
+}
+
+.animate-slideUp {
+	animation: slideUp 0.3s ease-out;
+}
+
+.animate-shake {
+	animation: shake 0.5s ease-in-out;
+}
+
+/* Smooth fade in animation for sidebar content */
+@keyframes fade-in {
+	from {
+		opacity: 0;
+		transform: translateX(-10px);
+	}
+	to {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+.animate-fade-in {
+	animation: fade-in 0.4s ease-out;
+}
+
+/* 3D Card Flip Effects - Revolving Door */
+.perspective-1000 {
+	perspective: 1000px;
+}
+
+.rotate-y-180 {
+	transform: rotateY(180deg);
+}
+
+.transform-gpu {
+	transform: translateZ(0);
+	will-change: transform;
+}
+
+/* Preserve 3D for nested elements */
+.preserve-3d {
+	transform-style: preserve-3d;
+}
+
+.backface-hidden {
+	backface-visibility: hidden;
+	-webkit-backface-visibility: hidden;
+}
+
+/* PWA Install Prompt Animation */
+@keyframes slide-up {
+	from {
+		transform: translateY(100%);
+		opacity: 0;
+	}
+	to {
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+
+.animate-slide-up {
+	animation: slide-up 0.3s ease-out;
+}
+
+/* Responsive utilities */
+@media (max-width: 768px) {
+	/* Improve mobile touch targets */
+	button, a {
+		min-height: 44px;
+	}
+	
+	/* Better mobile form inputs */
+	input, select, textarea {
+		font-size: 16px; /* Prevents zoom on iOS */
+	}
+}
+
+/* Landscape mode optimizations */
+@media (max-width: 768px) and (orientation: landscape) {
+	/* Reduce vertical spacing in landscape */
+	.py-20 {
+		padding-top: 2rem;
+		padding-bottom: 2rem;
+	}
+	
+	.py-16 {
+		padding-top: 1.5rem;
+		padding-bottom: 1.5rem;
+	}
+	
+	/* Compact header in landscape */
+	header {
+		padding-top: 0.5rem;
+		padding-bottom: 0.5rem;
+	}
+	
+	/* Better use of horizontal space */
+	.container {
+		max-width: 100%;
+	}
+}
+
+/* Tablet landscape optimizations */
+@media (min-width: 769px) and (max-width: 1024px) and (orientation: landscape) {
+	/* Optimal grid layout for tablets in landscape */
+	.grid-cols-1 {
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+	}
+	
+	.md\:grid-cols-2 {
+		grid-template-columns: repeat(3, minmax(0, 1fr));
+	}
+}
+
+/* Modal Animations */
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+@keyframes slideUp {
+	from {
+		opacity: 0;
+		transform: translateY(20px);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+.animate-fadeIn {
+	animation: fadeIn 0.2s ease-out;
+}
+
+.animate-slideUp {
+	animation: slideUp 0.3s ease-out;
+}
+
+@keyframes scaleIn {
+	from {
+		opacity: 0;
+		transform: scale(0.9);
+	}
+	to {
+		opacity: 1;
+		transform: scale(1);
+	}
+}
+
+.animate-scaleIn {
+	animation: scaleIn 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+/* Animation for update notification modal */
+@keyframes scale-in {
+	from {
+		opacity: 0;
+		transform: scale(0.95);
+	}
+	to {
+		opacity: 1;
+		transform: scale(1);
+	}
+}
+
+.animate-scale-in {
+	animation: scale-in 0.2s ease-out;
+}
+
+/* Custom Scrollbar for Dropdown */
+.custom-scrollbar::-webkit-scrollbar {
+	width: 8px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+	background: #f1f5f9;
+	border-radius: 10px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+	background: linear-gradient(180deg, #60a5fa, #3b82f6);
+	border-radius: 10px;
+	transition: background 0.3s;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+	background: linear-gradient(180deg, #3b82f6, #2563eb);
+}
+
+/* Firefox scrollbar */
+.custom-scrollbar {
+	scrollbar-width: thin;
+	scrollbar-color: #3b82f6 #f1f5f9;
+}
+
+/* ===== Map Section Custom Styles ===== */
+
+/* Map tooltip override */
+.map-tooltip-custom {
+	background: rgba(10, 22, 40, 0.92) !important;
+	backdrop-filter: blur(12px) !important;
+	border: 1px solid rgba(255, 255, 255, 0.1) !important;
+	border-radius: 10px !important;
+	padding: 8px 12px !important;
+	color: white !important;
+	box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3), 0 0 0 1px rgba(255, 255, 255, 0.05) !important;
+	font-family: 'Poppins', sans-serif !important;
+}
+
+.map-tooltip-custom::before {
+	border-top-color: rgba(10, 22, 40, 0.92) !important;
+}
+
+/* Region hover tooltip */
+.map-region-tooltip {
+	background: rgba(10, 22, 40, 0.88) !important;
+	backdrop-filter: blur(12px) !important;
+	border: 1px solid rgba(198, 167, 61, 0.2) !important;
+	border-radius: 10px !important;
+	padding: 6px 12px !important;
+	color: white !important;
+	box-shadow: 0 4px 20px rgba(0, 0, 0, 0.35) !important;
+	font-family: 'Poppins', sans-serif !important;
+}
+
+.map-region-tooltip::before {
+	display: none !important;
+}
+
+/* Marker pulse animation */
+.map-marker-pulse {
+	animation: marker-pulse 1.5s ease-in-out infinite;
+}
+
+@keyframes marker-pulse {
+	0%, 100% { box-shadow: 0 0 4px currentColor; }
+	50% { box-shadow: 0 0 16px currentColor, 0 0 32px currentColor; }
+}
+
+/* Scrollbar hide utility */
+.scrollbar-hide::-webkit-scrollbar { display: none; }
+.scrollbar-hide { -ms-overflow-style: none; scrollbar-width: none; }
+
+/* Safe area padding for PWA / notch devices */
+.safe-area-top { padding-top: env(safe-area-inset-top, 0px); }
+.safe-area-bottom { padding-bottom: env(safe-area-inset-bottom, 0px); }
+
+/* Chat background pattern */
+.chat-bg {
+	background-color: #f0f2f5;
+	background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23d1d5db' fill-opacity='0.15'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+/* Dark scrollbar for map panel */
+.dark-scrollbar::-webkit-scrollbar {
+	width: 4px;
+}
+
+.dark-scrollbar::-webkit-scrollbar-track {
+	background: transparent;
+}
+
+.dark-scrollbar::-webkit-scrollbar-thumb {
+	background: rgba(255, 255, 255, 0.1);
+	border-radius: 10px;
+}
+
+.dark-scrollbar::-webkit-scrollbar-thumb:hover {
+	background: rgba(255, 255, 255, 0.2);
+}
+
+/* Leaflet controls style override for dark map */
+.leaflet-container .leaflet-control-attribution {
+	background: rgba(0, 0, 0, 0.4) !important;
+	color: rgba(255, 255, 255, 0.3) !important;
+	font-size: 9px !important;
+	backdrop-filter: blur(8px);
+	border: none !important;
+}
+
+.leaflet-container .leaflet-control-attribution a {
+	color: rgba(255, 255, 255, 0.4) !important;
+}
+/* ===== EMOJI PICKER FIX ===== */
+aside.EmojiPickerReact .epr-category-nav,
+.EmojiPickerReact .epr-category-nav,
+nav.epr-category-nav,
+[class*="epr-category-nav"] {
+        display: flex !important;
+        flex-wrap: nowrap !important;
+        overflow-x: auto !important;
+        overflow-y: hidden !important;
+        padding: 2px 4px !important;
+        gap: 0 !important;
+}
+aside.EmojiPickerReact .epr-category-nav::-webkit-scrollbar,
+.EmojiPickerReact .epr-category-nav::-webkit-scrollbar,
+[class*="epr-category-nav"]::-webkit-scrollbar {
+        display: none;
+}
+aside.EmojiPickerReact .epr-cat-btn,
+.EmojiPickerReact .epr-cat-btn,
+[class*="epr-category-nav"] button {
+        flex-shrink: 0 !important;
+        width: 30px !important;
+        height: 30px !important;
+        min-width: 30px !important;
+        padding: 4px !important;
+}

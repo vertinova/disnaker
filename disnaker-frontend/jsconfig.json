@@ -1,0 +1,14 @@
+{
+	"compilerOptions": {
+		"paths": {
+			"*": ["./src/*"]
+		},
+		"module": "ESNext",
+		"moduleResolution": "bundler",
+		"jsx": "react-jsx",
+		"target": "ESNext",
+		"lib": ["DOM", "DOM.Iterable", "ESNext"]
+	},
+	"include": ["src"],
+	"exclude": ["node_modules"]
+}

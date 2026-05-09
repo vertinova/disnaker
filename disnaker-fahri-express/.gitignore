@@ -1,0 +1,125 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+yarn.lock
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+# .env.production is tracked for team collaboration
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Storage (uploaded files)
+storage/uploads/*
+!storage/uploads/.gitkeep
+storage/produk_hukum/*
+!storage/produk_hukum/.gitkeep
+storage/backups/
+
+# Public backups
+public/backups/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Build
+dist/
+build/
+
+# Test
+coverage/
+.nyc_output/
+tes
+
+# PM2
+.pm2/
+
+# Misc
+*.bak
+*.backup
+*.tmp
+*.original
+scratch/
+
+# Scripts dan exports temporary
+scripts/export-*.js
+scripts/check-*.js
+scripts/migrate-*.js
+
+# Data JSON temporary (kecuali pegawai-data.json yang siap untuk seeding)
+database-express/seeders/*-data.json
+!database-express/seeders/pegawai-data.json
+
+# SQL dumps - semua .sql tidak masuk GitHub
+*.sql
+*.tmp
+
+/src/generated/prisma
+
+# Development documentation (temporary files)
+*_FIX.md
+*_ACCESS.md
+*_UPDATE.md
+*_TROUBLESHOOTING.md
+*_ANALYSIS.md
+*_IMPLEMENTATION.md
+*_DESIGN.md
+*_FINAL.md
+*_INVESTIGATION_REPORT.md
+*_SUMMARY.md
+WORKFLOW_STRUCTURE.md
+ROLE_SYSTEM.md
+PEGAWAI_MANAGEMENT_FIX.md
+KEPALA_BIDANG_ACCESS.md
+QUICKSTART_*.md
+SETUP_*.sql
+SETUP_*.md
+
+# Development/debug scripts
+assign-*.js
+check-*.js
+revert-*.js
+revert-*.sql
+update-*.sql
+test-*.js
+fix-*.js
+reset-*.js
+create-*.js
+restart-dev.sh
+.restart
+
+# Deployment scripts
+deploy-*.ps1
+deploy-*.sh
+
+# Storage uploaded files
+storage/avatars/*
+!storage/avatars/.gitkeep
+storage/surat_masuk/*
+!storage/surat_masuk/.gitkeep
+
+# Prisma migrations folder (pakai db push, tidak perlu migration files)
+prisma/migrations/
+
+# DBML files and folder
+*.dbml
+dbml/
